@@ -2,6 +2,6 @@ theme: jekyll-theme-hacker
 
 @import "{{ site.theme }}";
 
-header {
-  display: none;
+header h1:before {
+    content: "";
 }
